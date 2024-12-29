@@ -1,0 +1,72 @@
+.questionnaire {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: flex-start;
+  background-image: url("/Users/User/OneDrive/Documents/CMT322Project/usm-bloodconnect/public/Background.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    max-width: 100%;
+    padding: 100px 0;
+  }
+}
+
+.mainTitle {
+  color: #ae0d05;
+  letter-spacing: 1.05px;
+  font: 700 35px/1 "Montserrat", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .mainTitle {
+    max-width: 100%;
+  }
+}
+
+.mainDescription {
+  color: #000;
+  letter-spacing: 0.56px;
+  margin-top: 32px;
+  font: 300 28px/34px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .mainDescription {
+    max-width: 100%;
+  }
+}
+
+.disclaimer {
+  color: #000;
+  letter-spacing: 0.42px;
+  margin-top: 32px;
+  font: 200 14px/14px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .disclaimer {
+    max-width: 100%;
+  }
+}
+
+.actionArea {
+  margin-top: 16px;
+}
